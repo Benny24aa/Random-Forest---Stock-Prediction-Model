@@ -1,0 +1,62 @@
+---
+title: "ATOS Prediction Report"
+fontsize: 20
+output:
+  word_document:
+---
+
+# ATOS SE Prediction
+
+## Prediction for the next 14 days for ATOS SE
+
+This table shows
+
+```{r table_1, ft.align="left", echo = FALSE}
+data_table
+
+```
+
+\newpage
+
+## Upper Forecast Graph
+
+This graph shows the upper forecast of ATOS SE over the next 14 days with the previous 14 days actuals.
+
+```{r graph_1, ft.align="left", echo = FALSE, fig.width=8, fig.height=5, out.width="100%"}
+graph_combined_upper
+
+```
+
+\newpage
+
+## Median Forecast Graph
+
+This graph shows the median forecast of ATOS SE over the next 14 days with the previous 14 days actuals.
+
+```{r graph_2, ft.align="left", echo = FALSE, fig.width=8, fig.height=5, out.width="100%"}
+graph_combined_median
+
+```
+
+\newpage
+## Lower Forecast Graph
+
+This graph shows the lower forecast of ATOS SE over the next 14 days with the previous 14 days actuals.
+
+```{r graph_3, ft.align="left", echo = FALSE, fig.width=8, fig.height=5, out.width="100%"}
+graph_combined_lower
+
+```
+\newpage
+
+## Differences Actual vs Model
+
+This table shows the difference between actual data vs model data. The data is adjusted as we move forward, so differences in previous rows impacts future differences.
+
+```{r table_2, ft.align="left", echo = FALSE}
+data_table_actual_vs_model
+
+```
+\newpage
+
+
